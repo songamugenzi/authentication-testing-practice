@@ -1,0 +1,31 @@
+{
+  "name": "nodeauth-practice",
+  "version": "1.0.0",
+  "description": "Authentication Sprint Practice",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebPT17-Sprint-Practice/authentication-testing-practice"
+  },
+  "keywords": [],
+  "author": "Lambda School",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WebPT17-Sprint-Practice/authentication-testing-practice/issues"
+  },
+  "homepage": "https://github.com/WebPT17-Sprint-Practice/authentication-testing-practice#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^3.22.0",
+    "knex": "^0.21.0",
+    "sqlite3": "^4.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
